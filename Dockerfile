@@ -1,7 +1,7 @@
 FROM debian:bookworm-slim AS linux-base
 
 # renovate: datasource=pypi depName=uv
-ARG UV_VERSION=0.4.24
+ARG UV_VERSION=0.5.8
 
 RUN <<EOF
     apt update
